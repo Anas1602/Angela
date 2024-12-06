@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+}
+
+h1{
+  margin-bottom: 40px;
+  font-size: 3rem;
+  color: blue;
+}
+
+.players{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.player1, .player2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p{
+  margin-bottom: 20px;
+}
+
+.dice-img{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 0 20px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+button{
+  padding: 20px 40px;
+  margin-top: 40px;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:hover{
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .2);
+  background: rgb(255, 255, 255);
+  color: black;
+  transition: 200ms;
+}
